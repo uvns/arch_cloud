@@ -1,4 +1,4 @@
-## In this tutorial, I will show you how to instal Arch linux on a cloud server. Instand of using a container like docker, it is installed on you physically Could Server. Ensure you can use VNC to connect you server. otherwise, you can not follow this guide.
+** In this tutorial, I will show you how to instal Arch linux on a cloud server. Instand of using a container like docker, it is installed on you physically Could Server. Ensure you can use VNC to connect you server. otherwise, you can not follow this guide.**
 ### 1. You should download the archlinux iso file, using torrent to download or other methods you want.
 ### 2.Add these contents to /boot/grub/grub.cfg
 ```
