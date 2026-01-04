@@ -14,7 +14,7 @@ menuentry "Arch Linux Live (UUID Method)" {
     initrd /arch/boot/x86_64/initramfs-linux.img
 }
 ```
-### 3.rezise 2GB partiton. this is because we will reboot the server through the partition. otherwise we can not delete old partitions like root nad boot and can not create new partitions. 
+### 3.rezise the mainpartiton on CLI. this is because we will reboot the server through the partition. otherwise we can not delete old partitions like root nad boot and can not create new partitions. 
 ```
 parted /dev/vda
 resizepart 2 48GB
